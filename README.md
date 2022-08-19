@@ -1,3 +1,5 @@
+Forked from https://gitlab.com/meibenny/elephants.git to better suite my needs.
+
 # Elephants
 
 A minimal Hugo theme using the Ubuntu font.
