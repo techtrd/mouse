@@ -5,6 +5,11 @@ body {
     max-width: 50em;
 }
 
+footer {
+    text-align: center;
+    margin: auto;
+}
+
 #page-title {
     text-align: center;
 }
