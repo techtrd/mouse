@@ -2,7 +2,7 @@
 
 <section id="content" class="page-content">
   <table>
-    {{ range .Site.RegularPages.ByPublishDate.Reverse }}
+    {{ range where .Paginator.Pages "Section" "blog" }}
     <tr>
       <td class="post-date-time date-time-font">
         <time>{{ .Date.Format (.Site.Params.dateform | default "Jan 02 2006") }}</time>
